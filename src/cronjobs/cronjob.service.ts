@@ -7,7 +7,7 @@ import { AssetService } from '../service/asset.service';
 export class CronjobService {
   constructor(
     private readonly apiService: ApiService,
-    private readonly assetService: AssetService
+    private readonly assetService: AssetService,
   ) { }
 
   @Cron(CronExpression.EVERY_30_SECONDS) //Use EVERY_30_SECONDS instead of EVERY_DAY_AT_MIDNIGHT to test 

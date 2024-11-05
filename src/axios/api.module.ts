@@ -5,4 +5,4 @@ import { ApiService } from './axios.service';
   providers: [ApiService],
   exports: [ApiService],
 })
-export class ApiModule {}
+export class ApiModule { }
